@@ -1,0 +1,40 @@
+{
+  "name": "select2-wrapper",
+  "authors": [
+    "Alex Kolarski <aleks.rk@gmail.com>"
+  ],
+  "description": "Polymer 1.0 wrapper for Select2",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "select2.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/kolarski/select2-wrapper/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "jquery": "~2.1.4",
+    "select2": "~4.0.0",
+    "webcomponentsjs": "~0.7.5",
+    "iron-component-page": "PolymerElements/iron-component-page#~1.0.5"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "cc58a5998b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cc58a5998b8ebd4d17c2bb6b506b768a02c05a9c"
+  },
+  "_source": "git://github.com/kolarski/select2-wrapper.git",
+  "_target": "*",
+  "_originalSource": "kolarski/select2-wrapper",
+  "_direct": true
+}
