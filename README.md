@@ -3,6 +3,9 @@
 
 Polymer 1.0 wrapper for select2
 
+## Website && Demo
+
+http://kolarski.github.io/select2-wrapper/
 
 ## Install
 
