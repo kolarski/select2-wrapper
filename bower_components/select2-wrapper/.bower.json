@@ -27,11 +27,11 @@
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "web-component-tester": "*"
   },
-  "_release": "c517bf7d8e",
+  "_release": "2eb9c14b6f",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "c517bf7d8e8be95e97bac86e99bd4b213d54d6fa"
+    "commit": "2eb9c14b6f187c0c77b1122f05c6ce1ea83e8514"
   },
   "_source": "git://github.com/kolarski/select2-wrapper.git",
   "_target": "*",
