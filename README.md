@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # select2-wrapper
 
 
@@ -30,4 +29,3 @@ And you can run it via:
 
 Once running, you can preview your element at
 `http://localhost:8080/components/select2-wrapper/`, where `select2-wrapper` is the name of the directory containing it.
-
