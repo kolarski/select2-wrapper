@@ -1,0 +1,81 @@
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<link rel="import" href="../polymer/polymer.html">
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/select2/dist/js/select2.full.min.js"></script>
+<link rel="stylesheet" href="bower_components/select2/dist/css/select2.min.css">
+<!--
+Polymer 1.0 wrapper for Select2
+
+Example:
+
+    <select2-wrapper id="my_select2_element"></select2-wrapper>
+    <script>
+      document.getElementById('my_select2_element').model = [
+        {
+          label: 'Asia',
+          value: 'AS'
+        }
+      ];
+    </script>
+
+@group Wrappers
+@element select2-wrapper
+@demo demo/index.html
+@hero hero.svg
+-->
+<dom-module id="select2-wrapper">
+
+  <style>
+    :host {
+      display: block;
+      box-sizing: border-box;
+    }
+  </style>
+
+  <template>
+    <select id="select2-wrapper-tag" style="width: 100%">
+      <template is="dom-repeat" items="{{model}}">
+        <option value="{{item.value}}">{{item.label}}</option> 
+      </template>
+    </select>
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'select2-wrapper',
+
+    _onUpdateSelectItems: function (data) {
+      if (data){
+        $(document).ready(function () {
+          $("#select2-wrapper-tag").select2({
+            data: data
+          });
+        });
+      }
+    },
+    properties: {
+      /**
+       * This property sets the select2 items
+       * @type Array
+       */
+      model: {
+        type: Array,
+        value: null,
+        observer: '_onUpdateSelectItems'
+      }
+    }
+  });
+
+</script>

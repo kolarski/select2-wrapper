@@ -1,0 +1,56 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>select2-wrapper Demo</title>
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../select2-wrapper.html">
+  </head>
+  <body>
+
+    <select2-wrapper id="my_select2_element" placeholder="Select item..."></select2-wrapper>
+    <script>
+    document.getElementById('my_select2_element').model = [
+      {
+        label: 'Asia',
+        value: 'AS'
+      },
+      {
+        label: 'Africa',
+        value: 'AF'
+      },
+      {
+        label: 'North America',
+        value: 'NA'
+      },
+      {
+        label: 'South America',
+        value: 'SA'
+      },
+      {
+        label: 'Antarctica',
+        value: 'AN'
+      },
+      {
+        label: 'Europe',
+        value: 'EU'
+      },
+      {
+        label: 'Australia',
+        value: 'OC'
+      },
+    ];
+    //my_select2_element
+    </script>
+  </body>
+</html>
