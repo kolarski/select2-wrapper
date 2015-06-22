@@ -1,6 +1,8 @@
-# seed-element
+<<<<<<< HEAD
+# select2-wrapper
 
-An element providing a starting point for your own reusable Polymer elements.
+
+Polymer 1.0 wrapper for select2
 
 
 ## Dependencies
@@ -13,7 +15,6 @@ install that via:
 Then, go ahead and download the element's dependencies:
 
     bower install
-
 
 ## Playing With Your Element
 
@@ -28,29 +29,5 @@ And you can run it via:
     polyserve
 
 Once running, you can preview your element at
-`http://localhost:8080/components/seed-element/`, where `seed-element` is the name of the directory containing it.
+`http://localhost:8080/components/select2-wrapper/`, where `select2-wrapper` is the name of the directory containing it.
 
-
-## Testing Your Element
-
-Simply navigate to the `/test` directory of your element to run its tests. If
-you are using Polyserve: `http://localhost:8080/components/seed-element/test/`
-
-### web-component-tester
-
-The tests are compatible with [web-component-tester](https://github.com/Polymer/web-component-tester).
-Install it via:
-
-    npm install -g web-component-tester
-
-Then, you can run your tests on _all_ of your local browsers via:
-
-    wct
-
-#### WCT Tips
-
-`wct -l chrome` will only run tests in chrome.
-
-`wct -p` will keep the browsers alive after test runs (refresh to re-run).
-
-`wct test/some-file.html` will test only the files you specify.
