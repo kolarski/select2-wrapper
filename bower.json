@@ -12,7 +12,7 @@
   ],
   "main": "select2.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/kolarski/select2/",
+  "homepage": "https://github.com/kolarski/select2-wrapper/",
   "ignore": [
     "/.*",
     "/test/"
