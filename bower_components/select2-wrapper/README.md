@@ -4,6 +4,10 @@
 Polymer 1.0 wrapper for select2
 
 
+## Install
+
+    bower install kolarski/select2-wrapper --save 
+
 ## Dependencies
 
 Element dependencies are managed via [Bower](http://bower.io/). You can
