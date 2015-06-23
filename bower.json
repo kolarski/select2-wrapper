@@ -6,6 +6,7 @@
   ],
   "description": "Polymer 1.0 wrapper for Select2",
   "keywords": [
+    "web-components",
     "web-component",
     "polymer",
     "seed"
